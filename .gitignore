@@ -1,3 +1,32 @@
+# === OCR PROJECT SPECIFIC ===
+# Simple deduplication database (obsahuje citlivé názvy souborů)
+processed_files_database.txt
+
+# Google credentials (NIKDY necommitovat!)
+google-credentials.json
+
+# OCR data složky
+data/rawdata/
+data/input/
+data/output/
+data/processed/
+data/duplicates/
+
+# Azure test files
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.tif
+*.bmp
+
+# Dočasné soubory
+temp_*
+test_*
+
+# === STANDARD PYTHON .GITIGNORE ===
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
